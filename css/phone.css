@@ -2,7 +2,7 @@
 flex-direction: column;
 }
 #nav ul li a {
-    font-size: 2rem;
+    font-size: 1rem;
     padding:0% 7px;
 }
 #home{
@@ -19,6 +19,7 @@ padding: 10px 20px;
 
 #services{
     flex-direction: column;
+    margin: 0%;
 }
 #services .box{
     margin: 1px 68px;
@@ -26,10 +27,23 @@ padding: 10px 20px;
 }
 
 #clients {
-    overflow: hidden;
-    /* flex-direction: column; */
+    /* overflow: hidden; */
+    flex-wrap: wrap;
+    
+}
+#clients img{
+    /* overflow: hidden; */
+    flex-wrap: wrap;
+    width: 70px;
+    padding: 30px;
+    
 }
 
 .h1 {
     font-size: 30px;
+}
+
+.btn {
+    font-size: 13px;
+    padding: 4px;
 }
